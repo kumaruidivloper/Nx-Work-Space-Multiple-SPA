@@ -83,6 +83,7 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
+# My Nx Owrkspace POC DOC
 
 ## Old Nrwl 
 https://myview.rahulnivi.net/running-multiple-angular-spa-nrwl/
