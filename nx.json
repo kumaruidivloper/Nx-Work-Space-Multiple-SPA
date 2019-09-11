@@ -19,6 +19,12 @@
     },
     "myapp": {
       "tags": []
+    },
+    "userapp-e2e": {
+      "tags": []
+    },
+    "userapp": {
+      "tags": []
     }
   }
 }
