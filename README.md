@@ -85,6 +85,28 @@ Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
 # My Nx Owrkspace POC DOC
 
+
+## What is Nx?
+Nx: Nx stans for [Nrwl Extentions For Angular]
+Nrwl company By the Team of Ex Googlers Also part of angular code team
+
+Nx not replacement of Angular cli this are just extenstion of Angular CLI [add some cappblities of our existing angular projects]
+
+With Nx we can Create workspaces to manage our applications
+
+Also create application & library with it
+
+## Why Nx?
+If we want create multiple Applications that share some data or some state we can make use of Nx
+Also nx Built very large Enterprice Angular application
+
+Nx is Monorepo so every Application & every library in our code sits in only one repostary
+
+Nx helps with Architecture of our application
+
+Nx Applications are very Easier to Scale
+
+
 ## Old Nrwl 
 https://myview.rahulnivi.net/running-multiple-angular-spa-nrwl/
 
