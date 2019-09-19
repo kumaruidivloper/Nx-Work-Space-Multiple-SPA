@@ -153,8 +153,9 @@ ng generate @nrwl/angular:library mylib //Same thing
 //Using npm 
 ng serve <appname> <portNumber>
 
-ng serve admin --port 4201
+ng serve admin [Default Port 4200]
 ng serve myapp --port 4201
+ng serve userapp --port 4202
 
 ## Generate dependency graph
 
