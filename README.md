@@ -188,6 +188,7 @@ Looking at package.json, there are a number of scripts that have been added. One
 For example, I’ve added my-lib and my-lib2 to the my-first-app. This is the resulting dependency graph:
 
 
+![004](https://user-images.githubusercontent.com/30646609/65253672-a4acd900-db18-11e9-9987-c73e365c72a8.JPG)
 
 
 Here we can see that the my-first-app-e2e (end-to-end) test application is dependent on the my-first-app application. The application is dependent on the libraries my-lib and my-lib2. This is a very simple example. This gains more value as more applications share more libraries.
