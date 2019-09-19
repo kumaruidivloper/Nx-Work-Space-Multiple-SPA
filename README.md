@@ -199,6 +199,11 @@ Here we can see that the my-first-app-e2e (end-to-end) test application is depen
 
 It is also possible to get the JSON version of the dependency graph which can be used in various creative ways to help automate your workflow. This is all thanks to Nrwl Extensions and the power of Nx Workspaces.
 
+## Nx Workspace 
+
+1: Mono Repo- a single repository for your Angular applications.
+2: Same approach used by Google, Facebook, Uber, Twitter for years
+
 
 
 
