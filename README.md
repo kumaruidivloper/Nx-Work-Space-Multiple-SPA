@@ -83,7 +83,7 @@ Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
-# My Nx Owrkspace POC DOC
+# My Nx Workspace POC DOC
 
 
 ## What is Nx?
@@ -153,8 +153,9 @@ ng generate @nrwl/angular:library mylib //Same thing
 //Using npm 
 ng serve <appname> <portNumber>
 
-ng serve admin --port 4201
+ng serve admin [Default Port 4200]
 ng serve myapp --port 4201
+ng serve userapp --port 4202
 
 ## Generate dependency graph
 
@@ -178,7 +179,37 @@ ng serve -a=third-client
 ng serve -a=second-client -p=4201
 ng serve -a=first-client -p=4202
 
+## Folder Usage
+![003](https://user-images.githubusercontent.com/30646609/65253068-9f9b5a00-db17-11e9-8a0d-1a7d410fcd97.JPG)
+
+## The Dependency Graph
+
+Looking at package.json, there are a number of scripts that have been added. One that is nice to have is to generate and view a dependency graph of all of the applications and libraries in the workspace. A dependency graph can be generated using the following command: npm run dep-graph
+
+For example, I’ve added my-lib and my-lib2 to the my-first-app. This is the resulting dependency graph:
 
 
+![004](https://user-images.githubusercontent.com/30646609/65253672-a4acd900-db18-11e9-9987-c73e365c72a8.JPG)
 
 
+![007](https://user-images.githubusercontent.com/30646609/65254853-8a73fa80-db1a-11e9-84e6-9c605d10e5b0.png)
+
+
+Here we can see that the my-first-app-e2e (end-to-end) test application is dependent on the my-first-app application. The application is dependent on the libraries my-lib and my-lib2. This is a very simple example. This gains more value as more applications share more libraries.
+
+It is also possible to get the JSON version of the dependency graph which can be used in various creative ways to help automate your workflow. This is all thanks to Nrwl Extensions and the power of Nx Workspaces.
+
+## Nx Workspace 
+
+1: Mono Repo- a single repository for your Angular applications.
+2: Same approach used by Google, Facebook, Uber, Twitter for years
+
+## Some Slides
+
+![005](https://user-images.githubusercontent.com/30646609/65257663-2c95e180-db1f-11e9-86a3-a0ad3b3c8cad.JPG)
+![004-1](https://user-images.githubusercontent.com/30646609/65257662-2bfd4b00-db1f-11e9-80f7-fb4c52130918.JPG)
+![006](https://user-images.githubusercontent.com/30646609/65257664-2c95e180-db1f-11e9-96b4-428ad1214dce.JPG)
+![007](https://user-images.githubusercontent.com/30646609/65257666-2c95e180-db1f-11e9-8795-c10009792f9b.JPG)
+![008](https://user-images.githubusercontent.com/30646609/65257667-2c95e180-db1f-11e9-8626-a58cc5c5299d.JPG)
+![009](https://user-images.githubusercontent.com/30646609/65257668-2d2e7800-db1f-11e9-9fce-ac8af589486e.JPG)
+![010](https://user-images.githubusercontent.com/30646609/65257661-2bfd4b00-db1f-11e9-9f55-d507db4946c0.JPG)
