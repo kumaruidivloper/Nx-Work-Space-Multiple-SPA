@@ -178,6 +178,11 @@ ng serve -a=third-client
 ng serve -a=second-client -p=4201
 ng serve -a=first-client -p=4202
 
+## Folder Usage
+# Folder	Description
+apps Folder	Contains a collection of applications in the workspace.
+libs Folder	Contains a collection of libraries in the workspace.
+
 
 
 
