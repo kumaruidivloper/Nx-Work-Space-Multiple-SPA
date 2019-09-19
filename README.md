@@ -192,6 +192,9 @@ For example, I’ve added my-lib and my-lib2 to the my-first-app. This is the re
 ![004](https://user-images.githubusercontent.com/30646609/65253672-a4acd900-db18-11e9-9987-c73e365c72a8.JPG)
 
 
+![007](https://user-images.githubusercontent.com/30646609/65254853-8a73fa80-db1a-11e9-84e6-9c605d10e5b0.png)
+
+
 Here we can see that the my-first-app-e2e (end-to-end) test application is dependent on the my-first-app application. The application is dependent on the libraries my-lib and my-lib2. This is a very simple example. This gains more value as more applications share more libraries.
 
 It is also possible to get the JSON version of the dependency graph which can be used in various creative ways to help automate your workflow. This is all thanks to Nrwl Extensions and the power of Nx Workspaces.
