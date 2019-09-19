@@ -181,6 +181,19 @@ ng serve -a=first-client -p=4202
 ## Folder Usage
 ![003](https://user-images.githubusercontent.com/30646609/65253068-9f9b5a00-db17-11e9-8a0d-1a7d410fcd97.JPG)
 
+## The Dependency Graph
+
+Looking at package.json, there are a number of scripts that have been added. One that is nice to have is to generate and view a dependency graph of all of the applications and libraries in the workspace. A dependency graph can be generated using the following command: npm run dep-graph
+
+For example, I’ve added my-lib and my-lib2 to the my-first-app. This is the resulting dependency graph:
+
+
+
+
+Here we can see that the my-first-app-e2e (end-to-end) test application is dependent on the my-first-app application. The application is dependent on the libraries my-lib and my-lib2. This is a very simple example. This gains more value as more applications share more libraries.
+
+It is also possible to get the JSON version of the dependency graph which can be used in various creative ways to help automate your workflow. This is all thanks to Nrwl Extensions and the power of Nx Workspaces.
+
 
 
 
