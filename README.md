@@ -179,9 +179,7 @@ ng serve -a=second-client -p=4201
 ng serve -a=first-client -p=4202
 
 ## Folder Usage
-# Folder	Description
-apps Folder	Contains a collection of applications in the workspace.
-libs Folder	Contains a collection of libraries in the workspace.
+![003](https://user-images.githubusercontent.com/30646609/65253068-9f9b5a00-db17-11e9-8a0d-1a7d410fcd97.JPG)
 
 
 
