@@ -204,7 +204,15 @@ It is also possible to get the JSON version of the dependency graph which can be
 1: Mono Repo- a single repository for your Angular applications.
 2: Same approach used by Google, Facebook, Uber, Twitter for years
 
+## Some Slides
 
+![005](https://user-images.githubusercontent.com/30646609/65257663-2c95e180-db1f-11e9-86a3-a0ad3b3c8cad.JPG)
+![004-1](https://user-images.githubusercontent.com/30646609/65257662-2bfd4b00-db1f-11e9-80f7-fb4c52130918.JPG)
+![006](https://user-images.githubusercontent.com/30646609/65257664-2c95e180-db1f-11e9-96b4-428ad1214dce.JPG)
+![007](https://user-images.githubusercontent.com/30646609/65257666-2c95e180-db1f-11e9-8795-c10009792f9b.JPG)
+![008](https://user-images.githubusercontent.com/30646609/65257667-2c95e180-db1f-11e9-8626-a58cc5c5299d.JPG)
+![009](https://user-images.githubusercontent.com/30646609/65257668-2d2e7800-db1f-11e9-9fce-ac8af589486e.JPG)
+![010](https://user-images.githubusercontent.com/30646609/65257661-2bfd4b00-db1f-11e9-9f55-d507db4946c0.JPG)
 
 
 
